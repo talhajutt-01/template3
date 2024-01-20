@@ -1,0 +1,126 @@
+{
+  "sidebar": {
+//all elemnts are link
+    "sidebar1": "Home",
+    "sidebar2": "Products",
+    "sidebar3": "Features",
+    "sidebar4": "Contact us",
+    "sidebar5": "Testimonials",
+    "sidebar6": "Clients",
+    "sidebar7": "price"
+    
+  },
+  "banner": {
+////all elemnts are text and banner2 is button
+    "banner0": "Enhance Your Email Security",
+    "banner1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam! ",
+    "banner2": "Explore Now"
+  },
+
+   "t": {
+////all elemnts are text
+    "t0": "Lorem iididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+    "t1": "Andy MArks"
+  },
+
+  "h": {
+////all elemnts are text
+    "h0": " UPdated BELIEVING",
+    "h1": " UPdated Focusing On What Matters Most",
+    "h2": " UPdated Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!",
+    "h3": " UPdated Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "h4": " UPdated Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet!"
+  },
+
+  "s" : {
+////all elemnts are text
+    "s0" : " update FEEDBACK",
+    "s1" : " update What our customers are saying"
+  },
+
+  "u" : {
+////all elemnts are text
+    "u0" : " update Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt la et dolore magna aliqua",
+    "u1" : " update name of user",
+    "u2" : " 2nd update Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt la et dolore magna aliqua",
+    "u3" : " 2nd update name",
+    "u4" : " 3rd update Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt la et dolore magna aliqua",
+    "u5" : " 3rd update name"
+  },
+
+  "w" : {
+////all elemnts are text
+    "w1" : " update TRUST",
+    "w2" : " update Companies who use our services",
+    "w3" : " update Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!"
+  },
+
+
+
+  "c": {
+////all elemnts are text
+    "c0": "Secure Your Inbox",
+    "c1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+    "c2": "Learn More"
+  },
+
+  "b": {
+////all elemnts are text
+    "b0": "Defend Against Cyber Threats",
+    "b1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+  },
+  
+  "software": {
+////all elemnts are text
+    "about1": "Why Choose Our Email Security Software",
+    "about2": "Elevate your email security with our cutting-edge software. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+  },
+  
+  "details": {
+////all elemnts are text
+    "details1": "Advanced Customization",
+    "details2": "Unmatched Flexibility",
+    "details3": "Impeccable Cleanliness",
+    "details4": "Ready for High Ratings"
+  },
+  
+  "introduction": {
+////all elemnts are text
+    "intro_title": "Empowering Your Email Security",
+    "intro": "Fortify your email communications against evolving cyber threats. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+  },
+
+  "works": {
+////all elemnts are text
+    "intro1": "How Our Software Works",
+    "how_works": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+  },
+
+     "color":{
+        "banner":"grey",
+        "content":"red",
+        "about":"grey",
+        "gallery":"red",
+        "services":"red",
+        "testimonials":"grey",
+        "clients":"red",
+        "pricing":"grey",
+     },
+
+   "images": {
+//images of gallery
+        "img1": "images/gallery-images/gallery-image-1.jpg",
+        "img2": "images/gallery-images/gallery-image-2.jpg",
+        "img3": "images/gallery-images/gallery-image-3.jpg",
+        "img4": "images/gallery-images/gallery-image-4.jpg",
+        "img5": "images/gallery-images/gallery-image-5.jpg",
+        "img6": "images/gallery-images/gallery-image-6.jpg",
+//iamge 
+        "img7": "images/dancer.jpg",
+
+//images of clients
+        "img8": "images/user-images/user-1.jpg",
+        "img9": "images/user-images/user-2.jpg",
+        "img10": "images/user-images/user-3.jpg"
+    }
+}
