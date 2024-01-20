@@ -81,5 +81,29 @@
   "works": {
     "intro1": "How Our Software Works",
     "how_works": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
-  }
+  },
+
+     "color":{
+        "banner":"grey",
+        "content":"red",
+        "about":"grey",
+        "gallery":"red",
+        "services":"red",
+        "testimonials":"grey",
+        "clients":"red",
+        "pricing":"grey",
+     },
+
+   "images": {
+        "img1": "images/gallery-images/gallery-image-1.jpg",
+        "img2": "images/gallery-images/gallery-image-2.jpg",
+        "img3": "images/gallery-images/gallery-image-3.jpg",
+        "img4": "images/gallery-images/gallery-image-4.jpg",
+        "img5": "images/gallery-images/gallery-image-5.jpg",
+        "img6": "images/gallery-images/gallery-image-6.jpg",
+        "img7": "images/dancer.jpg",
+        "img8": "images/user-images/user-1.jpg",
+        "img9": "images/user-images/user-2.jpg",
+        "img10": "images/user-images/user-3.jpg"
+    }
 }

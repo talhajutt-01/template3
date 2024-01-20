@@ -58,6 +58,28 @@ const w1 = document.getElementById('w1');
 const w2 = document.getElementById('w2');
 const w3 = document.getElementById('w3');
 
+const g0 = document.getElementById('banner');
+const g1 = document.getElementById('content');
+const g2 = document.getElementById('about');
+const g3 = document.getElementById('gallery');
+const g4 = document.getElementById('services');
+const g5 = document.getElementById('testimonials');
+const g6 = document.getElementById('clients');
+const g7 = document.getElementById('pricing');
+
+
+      
+const img1 = document.getElementById('img1');
+const img2 = document.getElementById('img2');
+const img3 = document.getElementById('img3');
+const img4 = document.getElementById('img4');
+const img5 = document.getElementById('img5');
+const img6 = document.getElementById('img6');
+const img7 = document.getElementById('img7');
+const img8 = document.getElementById('img8');
+const img9 = document.getElementById('img9');
+const img10 = document.getElementById('img10');
+
 const paragraph1 = document.getElementById('paragraph1');
 
 // Function to update content for a specific element
@@ -72,7 +94,14 @@ function updateLinkContent(linkElement, newValue) {
   // Update content for the <a> tag
   linkElement.innerText = newValue;
 }
-
+function updateImageSrc(imageElement, newSrc) {
+  // Update the src attribute of the image element
+  imageElement.src = newSrc;
+}
+function updateBackgroundColor(element, newColor) {
+// Update the background color for the element
+element.style.backgroundColor = newColor;
+}
 // Fetch JSON data from the text file
 fetch('t.txt')
   .then(response => response.text())
@@ -138,6 +167,27 @@ fetch('t.txt')
 
     updateContent(works, jsonData.works.intro);
     updateContent(how_works, jsonData.works.how_works);  
+
+    updateBackgroundColor(g0, jsonData.color.banner);
+    updateBackgroundColor(g1, jsonData.color.content);
+    updateBackgroundColor(g2, jsonData.color.about);
+    updateBackgroundColor(g3, jsonData.color.gallery);
+    updateBackgroundColor(g4, jsonData.color.service);
+    updateBackgroundColor(g5, jsonData.color.testimonials);
+    updateBackgroundColor(g6, jsonData.color.clients);
+    updateBackgroundColor(g7, jsonData.color.pricing);
+
+
+    updateImageSrc(img1, jsonData.images.img1);
+    updateImageSrc(img2, jsonData.images.img2);
+    updateImageSrc(img3, jsonData.images.img3);
+    updateImageSrc(img4, jsonData.images.img4);
+    updateImageSrc(img5, jsonData.images.img5);
+    updateImageSrc(img6, jsonData.images.img6);
+    updateImageSrc(img7, jsonData.images.img7);
+    updateImageSrc(img8, jsonData.images.img8);
+    updateImageSrc(img9, jsonData.images.img9);
+    updateImageSrc(img10, jsonData.images.img10);
 
   })
   .catch(error => console.error('Error fetching or parsing JSON:', error));
