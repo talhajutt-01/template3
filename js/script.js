@@ -21,8 +21,8 @@ const b0 = document.getElementById('b0');
 const b1 = document.getElementById('b1');
 
 
-const about_software = document.getElementById('software');
-const about_software1 = document.getElementById('software1');
+const about_software = document.getElementById('about1');
+const about_software1 = document.getElementById('about2');
 
 
 const details = document.getElementById('details1');
@@ -103,91 +103,99 @@ function updateBackgroundColor(element, newColor) {
 element.style.backgroundColor = newColor;
 }
 // Fetch JSON data from the text file
-fetch('t.txt')
-  .then(response => response.text())
-  .then(textData => {
-    // Parse the text data as JSON
-    const jsonData = JSON.parse(textData);
+const fetchJson1 = fetch('t.txt')
+.then(response => response.json());
+
+// Fetch the second JSON file
+const fetchJson2 = fetch('image.txt')
+.then(response => response.json());
+
+// Wait for both fetch operations to complete
+Promise.all([fetchJson1, fetchJson2])
+.then(jsonDataArray => {
+    // Merge the data from both JSON files
+    const mergedData = Object.assign({}, ...jsonDataArray);
+
 
     // Update content for existing sidebar elements using variables
-    updateContent(SideBar1, jsonData.sidebar.sidebar1);
-    updateContent(SideBar2, jsonData.sidebar.sidebar2);
-    updateContent(SideBar3, jsonData.sidebar.sidebar3);
-    updateContent(SideBar4, jsonData.sidebar.sidebar4);
-    updateContent(SideBar5, jsonData.sidebar.SideBar5);
-    updateContent(SideBar6, jsonData.sidebar.SideBar6);
-    updateContent(SideBar7, jsonData.sidebar.SideBar7);
+    updateContent(SideBar1, mergedData.sidebar.sidebar1);
+    updateContent(SideBar2, mergedData.sidebar.sidebar2);
+    updateContent(SideBar3, mergedData.sidebar.sidebar3);
+    updateContent(SideBar4, mergedData.sidebar.sidebar4);
+    updateContent(SideBar5, mergedData.sidebar.SideBar5);
+    updateContent(SideBar6, mergedData.sidebar.SideBar6);
+    updateContent(SideBar7, mergedData.sidebar.SideBar7);
     
     // Update content for existing banner elements using variables
-    updateContent(Banner0, jsonData.banner.banner0);
-    updateContent(Banner1, jsonData.banner.banner1);
-    updateContent(Banner2, jsonData.banner.banner2);
+    updateContent(Banner0, mergedData.banner.banner0);
+    updateContent(Banner1, mergedData.banner.banner1);
+    updateContent(Banner2, mergedData.banner.banner2);
 
-    updateContent(content0, jsonData.c.c0);
-    updateContent(content1, jsonData.c.c1);
-    updateLinkContent(content2, jsonData.c.c2);
+    updateContent(content0, mergedData.c.c0);
+    updateContent(content1, mergedData.c.c1);
+    updateLinkContent(content2, mergedData.c.c2);
 
-    updateContent(b0, jsonData.b.b0);
-    updateContent(b1, jsonData.b.b1);
+    updateContent(b0, mergedData.b.b0);
+    updateContent(b1, mergedData.b.b1);
     
-    updateContent(t0, jsonData.t.t0);
-    updateContent(t1, jsonData.t.t1);
+    updateContent(t0, mergedData.t.t0);
+    updateContent(t1, mergedData.t.t1);
 
-    updateContent(h0, jsonData.h.h0);
-    updateContent(h1, jsonData.h.h1);
-    updateContent(h2, jsonData.h.h2);
-    updateContent(h3, jsonData.h.h3);
-    updateContent(h4, jsonData.h.h4);
+    updateContent(h0, mergedData.h.h0);
+    updateContent(h1, mergedData.h.h1);
+    updateContent(h2, mergedData.h.h2);
+    updateContent(h3, mergedData.h.h3);
+    updateContent(h4, mergedData.h.h4);
 
-    updateContent(s0, jsonData.s.s0);
-    updateContent(s1, jsonData.s.s1);
+    updateContent(s0, mergedData.s.s0);
+    updateContent(s1, mergedData.s.s1);
 
-    updateContent(u0, jsonData.u.u0);
-    updateContent(u1, jsonData.u.u1);
-    updateContent(u2, jsonData.u.u2);
-    updateContent(u3, jsonData.u.u3);
-    updateContent(u4, jsonData.u.u4);
-    updateContent(u5, jsonData.u.u5);
+    updateContent(u0, mergedData.u.u0);
+    updateContent(u1, mergedData.u.u1);
+    updateContent(u2, mergedData.u.u2);
+    updateContent(u3, mergedData.u.u3);
+    updateContent(u4, mergedData.u.u4);
+    updateContent(u5, mergedData.u.u5);
     
-    updateContent(w1, jsonData.w.w1);
-    updateContent(w2, jsonData.w.w2);
-    updateContent(w3, jsonData.w.w3);
+    updateContent(w1, mergedData.w.w1);
+    updateContent(w2, mergedData.w.w2);
+    updateContent(w3, mergedData.w.w3);
 
 
-    updateContent(about_software, jsonData.software.about1);
-    updateContent(about_software1, jsonData.software.about2);
+    updateContent(about_software, mergedData.software.about1);
+    updateContent(about_software1, mergedData.software.about2);
 
-    updateContent(details, jsonData.details.details1);
-    updateContent(details1, jsonData.details.details2);
-    updateContent(details2, jsonData.details.details3);
-    updateContent(details3, jsonData.details.details4);
+    updateContent(details, mergedData.details.details1);
+    updateContent(details1, mergedData.details.details2);
+    updateContent(details2, mergedData.details.details3);
+    updateContent(details3, mergedData.details.details4);
 
-    updateContent(intro_title, jsonData.introduction.intro_title);
-    updateContent(intro, jsonData.introduction.intro);    
+    updateContent(intro_title, mergedData.introduction.intro_title);
+    updateContent(intro, mergedData.introduction.intro);    
 
-    updateContent(works, jsonData.works.intro);
-    updateContent(how_works, jsonData.works.how_works);  
+    updateContent(works, mergedData.works.intro);
+    updateContent(how_works, mergedData.works.how_works);  
 
-    updateBackgroundColor(g0, jsonData.color.banner);
-    updateBackgroundColor(g1, jsonData.color.content);
-    updateBackgroundColor(g2, jsonData.color.about);
-    updateBackgroundColor(g3, jsonData.color.gallery);
-    updateBackgroundColor(g4, jsonData.color.service);
-    updateBackgroundColor(g5, jsonData.color.testimonials);
-    updateBackgroundColor(g6, jsonData.color.clients);
-    updateBackgroundColor(g7, jsonData.color.pricing);
+    updateBackgroundColor(g0, mergedData.color.banner);
+    updateBackgroundColor(g1, mergedData.color.content);
+    updateBackgroundColor(g2, mergedData.color.about);
+    updateBackgroundColor(g3, mergedData.color.gallery);
+    updateBackgroundColor(g4, mergedData.color.service);
+    updateBackgroundColor(g5, mergedData.color.testimonials);
+    updateBackgroundColor(g6, mergedData.color.clients);
+    updateBackgroundColor(g7, mergedData.color.pricing);
 
 
-    updateImageSrc(img1, jsonData.images.img1);
-    updateImageSrc(img2, jsonData.images.img2);
-    updateImageSrc(img3, jsonData.images.img3);
-    updateImageSrc(img4, jsonData.images.img4);
-    updateImageSrc(img5, jsonData.images.img5);
-    updateImageSrc(img6, jsonData.images.img6);
-    updateImageSrc(img7, jsonData.images.img7);
-    updateImageSrc(img8, jsonData.images.img8);
-    updateImageSrc(img9, jsonData.images.img9);
-    updateImageSrc(img10, jsonData.images.img10);
+    updateImageSrc(img1, mergedData.images.img1);
+    updateImageSrc(img2, mergedData.images.img2);
+    updateImageSrc(img3, mergedData.images.img3);
+    updateImageSrc(img4, mergedData.images.img4);
+    updateImageSrc(img5, mergedData.images.img5);
+    updateImageSrc(img6, mergedData.images.img6);
+    updateImageSrc(img7, mergedData.images.img7);
+    updateImageSrc(img8, mergedData.images.img8);
+    updateImageSrc(img9, mergedData.images.img9);
+    updateImageSrc(img10, mergedData.images.img10);
 
   })
   .catch(error => console.error('Error fetching or parsing JSON:', error));
