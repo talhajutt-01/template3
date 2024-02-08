@@ -33,7 +33,7 @@ const details3 = document.getElementById('details4');
 const intro_title = document.getElementById('intro_title');
 const intro = document.getElementById('intro');
 
-const works = document.getElementById('works');
+const intro1 = document.getElementById('intro1');
 const how_works = document.getElementById('how_works');
 
 const t0 = document.getElementById('t0');
@@ -173,7 +173,7 @@ Promise.all([fetchJson1, fetchJson2])
     updateContent(intro_title, mergedData.introduction.intro_title);
     updateContent(intro, mergedData.introduction.intro);    
 
-    updateContent(works, mergedData.works.intro);
+    updateContent(intro1, mergedData.works.intro1);
     updateContent(how_works, mergedData.works.how_works);  
 
     updateBackgroundColor(g0, mergedData.color.banner);

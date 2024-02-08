@@ -1,96 +1,81 @@
 {
-  "sidebar": {
-    "sidebar1": "Home",
-    "sidebar2": "Products",
-    "sidebar3": "Features",
-    "sidebar4": "Contact us",
-    "sidebar5": "Testimonials",
-    "sidebar6": "Clients",
-    "sidebar7": "price"
-    
-  },
-  "banner": {
-    "banner0": "Enhance Your Email Security",
-    "banner1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam! ",
-    "banner2": "Explore Now"
-  },
-
-   "t": {
-    "t0": "Lorem iididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
-    "t1": "Andy MArks"
-  },
-
-  "h": {
-    "h0": " UPdated BELIEVING",
-    "h1": " UPdated Focusing On What Matters Most",
-    "h2": " UPdated Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!",
-    "h3": " UPdated Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "h4": " UPdated Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet!"
-  },
-
-  "s" : {
-    "s0" : " update FEEDBACK",
-    "s1" : " update What our customers are saying"
-  },
-
-  "u" : {
-    "u0" : " update Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt la et dolore magna aliqua",
-    "u1" : " update name of user",
-    "u2" : " 2nd update Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt la et dolore magna aliqua",
-    "u3" : " 2nd update name",
-    "u4" : " 3rd update Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt la et dolore magna aliqua",
-    "u5" : " 3rd update name"
-  },
-
-  "w" : {
-    "w1" : " update TRUST",
-    "w2" : " update Companies who use our services",
-    "w3" : " update Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!"
-  },
-
-
-
-  "c": {
-    "c0": "Secure Your Inbox",
-    "c1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
-    "c2": "Learn More"
-  },
-
-  "b": {
-    "b0": "Defend Against Cyber Threats",
-    "b1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
-  },
-  
-  "software": {
-    "about1": "Why Choose Our Email Security Software",
-    "about2": "Elevate your email security with our cutting-edge software. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
-  },
-  
-  "details": {
-    "details1": "Advanced Customization",
-    "details2": "Unmatched Flexibility",
-    "details3": "Impeccable Cleanliness",
-    "details4": "Ready for High Ratings"
-  },
-  
-  "introduction": {
-    "intro_title": "Empowering Your Email Security",
-    "intro": "Fortify your email communications against evolving cyber threats. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
-  },
-
-  "works": {
-    "intro1": "How Our Software Works",
-    "how_works": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
-  },
-
-     "color":{
-        "banner":"grey",
-        "content":"red",
-        "about":"grey",
-        "gallery":"red",
-        "services":"red",
-        "testimonials":"grey",
-        "clients":"red",
-        "pricing":"grey"
-     }
+    "sidebar": {
+        "sidebar1": "Home",
+        "sidebar2": "Products",
+        "sidebar3": "Features",
+        "sidebar4": "Contact us",
+        "sidebar5": "Testimonials",
+        "sidebar6": "Clients",
+        "sidebar7": "price"
+    },
+    "banner": {
+        "banner0": "Enhance Your Email Security",
+        "banner1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam! ",
+        "banner2": "Explore Now"
+    },
+    "t": {
+        "t0": "Lorem iididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+        "t1": "Andy MArks"
+    },
+    "h": {
+        "h0": "BELIEVING",
+        "h1": "Focusing On What Matters Most",
+        "h2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!",
+        "h3": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "h4": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet!"
+    },
+    "s": {
+        "s0": "FEEDBACK",
+        "s1": "What our customers are saying"
+    },
+    "u": {
+        "u0": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt la et dolore magna aliqua",
+        "u1": "name of user",
+        "u2": "2nd Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt la et dolore magna aliqua",
+        "u3": "2nd name",
+        "u4": "3rd Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt la et dolore magna aliqua",
+        "u5": "3rd name"
+    },
+    "w": {
+        "w1": "TRUST",
+        "w2": "Companies who use our services",
+        "w3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!"
+    },
+    "c": {
+        "c0": "Secure Your Inbox",
+        "c1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+        "c2": "Learn More"
+    },
+    "b": {
+        "b0": "Defend Against Cyber Threats",
+        "b1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+    },
+    "software": {
+        "about1": "Why Choose Our Email Security Software",
+        "about2": "Elevate your email security with our cutting-edge software. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+    },
+    "details": {
+        "details1": "Advanced Customization",
+        "details2": "Unmatched Flexibility",
+        "details3": "Impeccable Cleanliness",
+        "details4": "Ready for High Ratings"
+    },
+    "introduction": {
+        "intro_title": "Empowering Your Email Security",
+        "intro": "Fortify your email communications against evolving cyber threats. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+    },
+    "works": {
+        "intro1": "How Our Software Works",
+        "how_works": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+    },
+    "color": {
+        "banner": ".",
+        "content": ".",
+        "about": ".",
+        "gallery": ".",
+        "services": ".",
+        "testimonials": ".",
+        "clients": ".",
+        "pricing": "."
+    }
 }
